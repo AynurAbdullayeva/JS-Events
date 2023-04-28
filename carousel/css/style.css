@@ -1,0 +1,40 @@
+body{
+	background-color: rgb(145, 190, 226);
+}
+.slider{
+	margin:50px auto;
+	width:50%;
+	position: relative;
+}
+ 
+.img-box img{
+	width:100%;
+}
+
+.btn{
+	border-radius: 50%;
+	border: none;
+	outline:none;
+	background: rgb(0, 0, 0, .8);
+	padding:10px 20px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+}
+
+i{
+	z-index: 100;
+	color: white;
+	
+}
+
+.btn.prev{
+	position: absolute;
+	left: -13%;
+	bottom: 45%;
+}
+.btn.next{
+	position: absolute;
+	right: -13%;
+	bottom: 45%;
+}
